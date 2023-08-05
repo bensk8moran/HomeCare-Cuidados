@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+@import "colors/color";
+@import "colors/header";
+@import "colors/layout";
+
+body{
+    font-family: 'Sora', sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to top, rgba(126, 126, 126, 0.753));
+    z-index: 99;
+}
+button{
+    cursor: pointer;
+    font-family: 'Sora';
+}
+svg{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
